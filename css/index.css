@@ -1,0 +1,47 @@
+body{
+  font-family: Calibri;
+}
+
+.main{
+  margin-top: 20vh;
+  text-align: justify;
+  background-color: white;
+  font-size: calc(3vh + 1vw);
+}
+
+.main-scrollingBox{
+  margin: 3px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+}
+
+.main-scrollingBox-content{
+  display: table;
+  height: 50vh;
+  padding: 5px;
+  background-color: red;
+  width: 90%;
+  font-size: calc(3vh + 1vw);
+}
+
+.main-scrollingBox-content-text{
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.main-scrollingBox-leftButton, .main-scrollingBox-rightButton{
+  display: block;
+  width: 6vw;
+  text-align: center;
+}
+.main-scrollingBox-leftButton-image{
+  margin-top: 16vh;
+  width: 5vw;
+}
+.main-scrollingBox-rightButton-image{
+  margin-top: 16vh;
+  width: 5vw;
+  transform: scale(-1, 1);
+}
