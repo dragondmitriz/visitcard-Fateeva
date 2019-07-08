@@ -1,0 +1,43 @@
+.head{
+  position: fixed;
+  display: flex;
+  top: 0;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 20vh;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+}
+
+.head-leftImage, .head-rightImage{
+  height: 18vh;
+  margin-top: 1vh;
+}
+
+.head-text{
+  text-align: center;
+  position: relative;
+  left: -1.85vw;
+}
+
+.head-text-surname{
+  margin: 0;
+  margin-top: 1.5vh;
+  font-size: calc(3.5vh + 1vw);
+  font-weight: 600;
+  color:#99d121;
+}
+
+.head-text-name{
+  margin: 0;
+  font-size: calc(2.5vh + 1vw);
+  font-weight: 500;
+  color:#99d121;
+}
+
+.head-text-specialization{
+  margin: 0;
+  font-size: calc(2vh + 1vw);
+  font-weight: 300;
+}

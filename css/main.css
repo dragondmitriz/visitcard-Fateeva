@@ -1,0 +1,81 @@
+.main{
+  margin-top: 20vh;
+  text-align: center;
+  background-color: white;
+  z-index: 1;
+}
+
+.main-scrollingBox{
+  display: block;
+  background-color: #9fbbd1;
+  margin: 3px;
+  border-radius: calc(1vh);
+}
+
+.main-scrollingBox-content{
+  padding: 5px;
+  font-size: calc(2vh + 1vw);
+}
+
+.main-scrollingBox-content-text{
+  margin: 0;
+  padding-top: 5px;
+  text-align: center;
+  position: relative;
+  height: 25vh;
+}
+
+.main-scrollingBox-checkLine{
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-scrollingBox-checkLine-check{
+  content: "";
+  width: 0;
+  height: 0;
+  position: relative;
+  top: -2.5vh;
+  border: 1.5vh solid transparent;
+  border-bottom: 1.5vh solid white;
+  cursor: pointer;
+}
+
+.main-scrollingBox-checkLine-check:after{
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 1.4vh;
+  left: -1.5vh;
+  border: 1.5vh solid transparent;
+  border-top: 1.5vh solid white;
+}
+
+.main-scrollingBox-checkLine-checked{
+  content: "";
+  width: 0;
+  height: 0;
+  position: relative;
+  top: -2.5vh;
+  border: 1.5vh solid transparent;
+  border-bottom: 1.5vh solid black;
+  cursor: pointer;
+}
+
+.main-scrollingBox-checkLine-checked:after{
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 1.4vh;
+  left: -1.5vh;
+  border: 1.5vh solid transparent;
+  border-top: 1.5vh solid black;
+}
+
+@media (orientation:portrait){
+  .main-scrollingBox-content-text{
+    height: 35vh;
+  }
+}

@@ -1,0 +1,71 @@
+.violations{
+}
+
+.violations-row{
+  display: flex;
+  justify-content: center;
+}
+
+.violation{
+  background-color: #EEE8AA;
+  border-radius: 1vh;
+  margin: 1vw;
+  padding: 0.5vh;
+  width: 22vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: calc(1vw + 1vh);
+}
+
+.violation-selected{
+  background-color: #EEE8AA;
+  border-radius: 1vh;
+  margin: 1vw;
+  padding: 0.5vh;
+  font-size: calc(1.5vw + 1vh);
+}
+
+.violation-name{
+
+}
+.violation-description{
+  margin-top: 2vh;
+  display: none;
+}
+
+.violation-correction{
+  display: none;
+}
+
+.violation-slide{
+  height: 1vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  cursor: pointer;
+}
+.violation-slide-text{
+  font-size: 1vw;
+  margin-top: 1vh;
+}
+.violation-slide-iconShow,.violation-slide-iconHide{
+  width: 0;
+  height: 0;
+  top: -2vh;
+  margin-left: 0.5vh;
+}
+.violation-slide-iconShow{
+  border-top: 2vh solid transparent;
+  border-right: 2vh solid white;
+}
+.violation-slide-iconHide{
+  border-bottom: 2vh solid transparent;
+  border-left: 2vh solid white;
+}
+
+@media (orientation:portrait){
+  .violation-slide-text{
+    font-size: 1.4vw;
+  }
+}

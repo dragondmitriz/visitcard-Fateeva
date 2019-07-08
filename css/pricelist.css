@@ -1,0 +1,21 @@
+.pricelist{
+  	background-color: #00BFFF;
+    border-radius: 1vh;
+    margin: 1vh;
+    padding: 2vh;
+}
+
+.pricelist-table{
+  width: 100%;
+  font-size: calc(1vh + 2vw);
+  font-family: Calibri;
+  border-collapse: collapse;
+}
+
+.pricelist-td{
+  border: 1px solid white;
+}
+
+.pricelist-td,.pricelist-th{
+  text-align: center;
+}

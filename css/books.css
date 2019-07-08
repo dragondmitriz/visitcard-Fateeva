@@ -1,0 +1,23 @@
+.books{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.books-headerText{
+  margin: 1vh;
+}
+
+.books-spis{
+  background-color:	#FF7F50;
+  border-radius: 1vh;
+  margin: 1vh;
+}
+
+@media (orientation:portrait)
+{
+  .books-spis{
+    font-size: 1vh;
+    padding-left: 5vw;
+  }
+}
